@@ -1,4 +1,11 @@
 /* Global CSS changes will go into this file */
+
+/* Headings */
+h1 {
+}
+/* End Headings */
+
+/* Colors */
 .background-color-primary {
   background-color: #062743;
 }
@@ -11,3 +18,4 @@
 .background-color-white {
   background-color: #F9F9F9;
 }
+/* End Colors */
