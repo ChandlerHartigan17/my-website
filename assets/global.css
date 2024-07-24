@@ -84,6 +84,7 @@ h6 {
 /* Buttons */
 .button {
   background-color: var(--supporting);
+  color:  var(--primary);
 }
 
 /* Navigation */
