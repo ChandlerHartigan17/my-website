@@ -20,6 +20,15 @@ body {
 .padding-global {
   padding: 0 2rem;
 }
+.padding-section-large {
+  padding: 4rem 0;
+}
+.padding-section-medium {
+  padding: 2rem 0;
+}
+.padding-section-small {
+  padding: 1rem 0;
+}
 /* End Padding Classes */
 
 /* Container Classes */
