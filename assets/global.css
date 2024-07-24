@@ -8,7 +8,7 @@ html {
   font-size: 16px;
 }
 body {
-  background-color: #062743;
+  background-color: var(--primary);
 /* End General CSS */
 
 /* Headings */
@@ -46,19 +46,19 @@ h6 {
 
 /* Colors */
 .background-color-primary {
-  background-color: #062743;
-  color: #F9F9F9;
+  background-color: var(--primary);
+  color: var(--white);
 }
 .background-color-secondary {
-  background-color: #113A5D;
-  color: #F9F9F9;
+  background-color: var(--secondary);
+  color: var(--white);
 }
 .background-color-supporting {
   background-color: #C4FFDD;
-  color: #F9F9F9;
+  color: var(--white);
 }
 .background-color-white {
-  background-color: #F9F9F9;
-  color: #062743;
+  background-color: var(--white);
+  color: var(--primary);
 }
 /* End Colors */
