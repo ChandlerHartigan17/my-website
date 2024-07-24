@@ -89,6 +89,12 @@ h6 {
   background-color: var(--supporting);
   color:  var(--primary);
   padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: var(--secondary);
+  color:  var(--white);
 }
 
 /* Navigation */
@@ -100,18 +106,30 @@ h6 {
 .nav-links-container {
   display: flex;
   justify-content: space-between;
-  gap:  2rem;
+  gap: 2rem;
   align-items:  center;
 }
 .nav-link {
-  padding: .5rem;
+  padding: 2rem 0;;
+}
+.nav-link_inner {
+  padding: .25rem 0;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
 }
 
-.nav-link::after {
+.nav-link .nav-link_inner:after {
   content: "";
   background-color: var(--supporting);
   height: 2px;
+  width: 100%;
   position: absolute;
   bottom: 0;
+  left: 100%;
+  trasition: left 0.3s ease 0s;
+}
+.nav-link:hover .nav-link_inner:after {
+  left: 0;
 }
 /* End Navigation */
