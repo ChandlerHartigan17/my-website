@@ -95,10 +95,23 @@ h6 {
 .nav-contianer {
   display: flex;
   justify-content: space-between;
+  align-items:  center;
 }
 .nav-links-container {
   display: flex;
   justify-content: space-between;
   gap:  2rem;
+  align-items:  center;
+}
+.nav-link {
+  padding: .5rem;
+}
+
+.nav-link::after {
+  content: "";
+  background-color: var(--supporting);
+  height: 2px;
+  position: absolute;
+  bottom: 0;
 }
 /* End Navigation */
