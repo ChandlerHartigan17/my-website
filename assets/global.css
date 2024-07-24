@@ -12,6 +12,23 @@ body {
 }
 /* End General CSS */
 
+/* Padding Classes */
+.padding-global {
+  padding: 0 2rem;
+}
+/* End Padding Classes */
+
+/* Container Classes */
+.container-large {
+  max-width: 80rem;
+}
+.container-medium {
+  max-width: 60rem;
+}
+.container-small {
+  max-width: 42rem;
+}
+
 /* Headings */
 h1 {
   font-size: 4rem;
@@ -63,3 +80,14 @@ h6 {
   color: var(--primary);
 }
 /* End Colors */
+
+/* Navigation */
+.nav-contianer {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
