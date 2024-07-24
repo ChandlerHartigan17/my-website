@@ -72,7 +72,7 @@ h6 {
   color: var(--white);
 }
 .background-color-supporting {
-  background-color: #C4FFDD;
+  background-color: var(--supporting);
   color: var(--white);
 }
 .background-color-white {
@@ -80,6 +80,11 @@ h6 {
   color: var(--primary);
 }
 /* End Colors */
+
+/* Buttons */
+.button {
+  background-color: var(--supporting);
+}
 
 /* Navigation */
 .nav-contianer {
@@ -89,5 +94,6 @@ h6 {
 .nav-links-container {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  gap:  2rem;
 }
+/* End Navigation */
