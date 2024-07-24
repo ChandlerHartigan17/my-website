@@ -85,6 +85,7 @@ h6 {
 .button {
   background-color: var(--supporting);
   color:  var(--primary);
+  padding: 1rem 1.5rem;
 }
 
 /* Navigation */
