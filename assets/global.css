@@ -39,12 +39,15 @@ body {
 /* Container Classes */
 .container-large {
   max-width: 80rem;
+  margin: auto;
 }
 .container-medium {
   max-width: 60rem;
+  margin: auto;
 }
 .container-small {
   max-width: 42rem;
+  margin: auto;
 }
 
 /* Headings */
