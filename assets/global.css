@@ -16,11 +16,20 @@ body {
 }
 /* End General CSS */
 
+/* Vision Classes */
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
 /* Text Classes */
 .text-align-center {
   text-align: center;
 }
-
+.text-align-left {
+  text-align: left;
+}
 /* Padding Classes */
 .padding-global {
   padding: 0 2rem;
@@ -111,6 +120,7 @@ h6, .style-h6 {
   text-transform: uppercase;
   transition: 0.3s;
   letter-spacing: 1px;
+  font-weight: 700;
 }
 .button:hover {
   background-color: var(--white);
@@ -129,6 +139,10 @@ h6, .style-h6 {
   display: flex;
   justify-content: center;
   gap: 1.25rem;
+}
+.button.active {
+  background-color: var(--supporting);
+  color: var(--primary);
 }
 /* Navigation */
 nav {
@@ -155,6 +169,7 @@ nav {
   overflow: hidden;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-weight: 700;
 }
 
 .nav-link .nav-link_inner:after {
