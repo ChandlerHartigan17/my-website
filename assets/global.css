@@ -104,21 +104,31 @@ h6, .style-h6 {
 
 /* Buttons */
 .button {
-  background-color: var(--primary);
-  color:  var(--supporting);
-  border:  2px solid var(--supporting);
+  background-color: var(--secondary);
+  color: var(--white);
+  border: 2px solid var(--secondary);
   padding: 1rem 1.5rem;
   text-transform: uppercase;
   transition: 0.3s;
   letter-spacing: 1px;
 }
 .button:hover {
+  background-color: var(--white);
+  color: var(--secondary);
+}
+.button.alternative {
+  background-color: var(--primary);
+  color: var(--supporting);
+  border: 2px solid var(--supporting);
+}
+.button.alternative:hover {
   background-color: var(--supporting);
-  color:  var(--primary);
+  color: var(--primary);
 }
 .button-container {
   display: flex;
   justify-content: center;
+  gap: 1.25rem;
 }
 /* Navigation */
 nav {
@@ -161,3 +171,22 @@ nav {
   left: 0;
 }
 /* End Navigation */
+
+/* Layout Styles */
+.full-screen {
+  height: 100dvh;
+}
+.section-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+/* End Layout Styles */
