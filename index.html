@@ -11,6 +11,14 @@
     <link rel="stylesheet" href="assets/custom.css">
     <script type="text/javascript" src="assets/custom.js"></script>
     <title>Chandler Hartigan</title>
+    <script>
+      const item = document.getElementById("education-button");
+item.addEventListener("click", switchDesc);
+
+function switchDesc() {
+  alert("You clicked a button");
+}
+</script>
   </head>
   <body>
     <nav class = "background-color-primary">
@@ -59,11 +67,11 @@
                 <h2>About Me</h2>
                 <p class = "style-h3">What would you like to know?</p>
                 <div class = "button-container">
-                  <div class = "button about-me-button active">Who I Am</div>
-                  <div class = "button about-me-button">Education</div>
-                  <div class = "button about-me-button">Current Status</div>
-                  <div class = "button about-me-button">Future Goals</div>
-                  <div class = "button about-me-button">Why You Should Hire Me</div>
+                  <div id = "who-i-am-button" class = "button about-me-button active">Who I Am</div>
+                  <div id = "education-button" class = "button about-me-button">Education</div>
+                  <div id = "current-status-button" class = "button about-me-button">Current Status</div>
+                  <div id = "future-goals-button" class = "button about-me-button">Future Goals</div>
+                  <div id = "why-hire-me-button" class = "button about-me-button">Why You Should Hire Me</div>
                 </div>
                 <div class = "about-me_desc-container text-align-left">
                   <div id = "who-i-am" class = "show">
