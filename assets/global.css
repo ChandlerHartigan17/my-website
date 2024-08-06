@@ -6,6 +6,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* General CSS */
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 body {
   background-color: var(--white);
@@ -103,7 +104,7 @@ h6, .style-h6 {
 }
 .background-color-supporting {
   background-color: var(--supporting);
-  color: var(--white);
+  color: var(--primary);
 }
 .background-color-white {
   background-color: var(--white);
@@ -121,6 +122,7 @@ h6, .style-h6 {
   transition: 0.3s;
   letter-spacing: 1px;
   font-weight: 700;
+  cursor: pointer;
 }
 .button:hover {
   background-color: var(--white);
